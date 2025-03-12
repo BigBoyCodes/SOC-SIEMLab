@@ -3,6 +3,12 @@
     
 <h2>Description</h2>
     <p>In this lab, I set up a basic home SOC in Azure from scratch. By creating a virtual machine (VM), opening it to the internet as a honeypot, forwarding logs to a central repository, and integrating Microsoft Sentinel, I was able to analyze real-world attack data.</p>
+
+<p>This Lab Task: </p>
+<li>Configuring Log Analytics Workspace</li>
+<li>Forwarding logs and integrating with Sentinel</li>
+<li>Querying failed login attempts and visualizing attack sources</li>
+<li>Building an attack map to track real-time hacker activity</li>
     
 <h2>Part 1: Creating the Honeypot (Azure Virtual Machine)</h2>
     <p>Create a new Windows 10 virtual machine.</p>
@@ -48,3 +54,4 @@
     
 <h2>Conclusion</h2>
     <p>This lab provided valuable hands-on experience in monitoring real-world attacks using Microsoft Sentinel. By setting up a honeypot, forwarding logs, enriching data, and visualizing attacks, I gained practical skills in SOC operations and SIEM analysis.</p>
+
